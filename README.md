@@ -4,15 +4,6 @@ Fine-tunes Meta AI's pretrained **facebook/nllb-200-distilled-600M** model on a 
 
 **Disclosure:** This notebook uses a pretrained model (`facebook/nllb-200-distilled-600M`, Meta AI, license `cc-by-nc-4.0`), downloaded via the HuggingFace `transformers` library and fine-tuned only on the dataset described below.
 
-## Results
-
-| Metric | Value |
-|---|---|
-| BLEU (NLTK, default weights) | 0.3296 |
-| BERTScore F1 (rescaled) | 0.6331 |
-| Trainable parameters | 615,073,792 |
-| Inference time (1,000 sentences) | 50.73s (50.7 ms/sentence) |
-
 ## Requirements
 
 - Google Colab with GPU runtime (Runtime → Change runtime type → GPU)
